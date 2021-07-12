@@ -1,5 +1,6 @@
-const fileSelector = document.getElementById('file-selector');
-fileSelector.addEventListener('change', (event) => {
+const uploadInput = document.getElementByClass('upload-input');
+
+uploadInput.addEventListener('change', (event) => {
   const fileList = event.target.files;
   console.log(fileList);
 });
